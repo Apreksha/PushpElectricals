@@ -1,0 +1,55 @@
+.orders{
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+}
+
+.orderLists{
+    height: 500px;
+}
+
+.orderLists h3{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+.orderItemsList{
+    background-color: white;
+}
+
+.orderItemCard{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.orderItemCard img{
+    height: 150px;
+    width: 150px;
+}
+
+.aboutProduct{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productInfo{
+    margin-left: 20px;
+}
+
+.buttonOptions div{
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    margin-right: 20px;
+}

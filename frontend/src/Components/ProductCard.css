@@ -1,0 +1,40 @@
+.productCard{
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.productImage{
+    height: 260px;
+    width: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 240, 240);
+    border-radius: 10px;
+}
+
+.productImage img{
+    height: 200px;
+    width: 200px;
+}
+
+.productCardNameAndPrice{
+    display: flex;
+    width: 272px;
+    margin-bottom: -10px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.productCartAddToCartButton{
+    margin-top: 5px;
+    height: 35px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    border: 1px black solid;
+}

@@ -1,0 +1,157 @@
+.Cart{
+    padding-right: 7.5%;
+    padding-bottom: 3%;
+    padding-left: 7.5%;
+}
+
+.continueShopping img{
+    height: 20px;
+    width: 25px;
+}
+
+.continueShopping{
+    display: flex;
+}
+
+.continueShopping p{
+    margin-top: -3px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.heading{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.card{
+    margin-top: 20px;
+    height: 250px;
+    width: 800px;
+    padding-left: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.billing{
+    background-color: white;
+    margin-left: 20px;
+    height: 150px;
+    margin-top: 20px;
+    width: 107%;
+}
+
+.cart{
+    display: flex;grid-template: 9px;
+}
+
+.subtotal, .total, .deliveryCharge{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    margin-bottom: -20px;
+    padding-right: 50px;
+}
+
+.subtotal p, .deliveryCharge p{
+    font-size: 17px;
+}
+
+.total p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.proceedToCheckout{
+    background-color: #F77E0B;
+    width: 107%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+
+.cartItemMainImg{
+    height: 220px;
+    width: 220px;
+    background-color: rgb(238, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartItemMainImg img{
+    height: 200px;
+    width: 200px;
+}
+
+.info1{
+    width: 400px;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.info2 p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.qty{
+    margin-bottom: 20px;
+    background-color: rgb(238, 240, 240);
+    border-radius: 40px;
+    height: 45px;
+    width:fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.qty div{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.qty p{
+    margin-top: 10px;
+}
+
+.bill hr{
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.help{
+    display: flex;
+    margin-left: 20px; 
+    margin-top: 20px; 
+}
+
+.help img{
+    height: 30px;
+    width: 30px;
+}
+
+.helpContent{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.helpContent p{
+    margin-top: -20px;
+    color: grey;
+}
+
+.callUs{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    margin-left: 20px;
+}

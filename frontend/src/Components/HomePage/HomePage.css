@@ -1,0 +1,151 @@
+@media (min-width: 1000px) {
+    .topCategoriesAndProducts{
+        display: flex;
+    }
+
+    .bestsellerProducts{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .someCategories{
+        display: none;
+        position: absolute;
+    }
+
+    .bestsellerProducts{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bestsellerProducts div{
+        height: 300px;
+    }
+}
+
+@media (max-width: 750px) {
+    .exploreAll p{ 
+        display: none;
+    }
+}
+
+@media (min-width: 750px) {
+    .exploreAll{ 
+        width: 15%;
+    }
+}
+
+@media (max-width: 900px) {
+    .topProducts{
+        display: grid;
+    }
+}
+
+@media (min-width: 100px) {
+    
+}
+
+.someCategories{
+    background-color: white;
+    width: 25%;
+    padding: 2%;
+    margin-right: 2%;
+}
+
+.colourBanners{
+    width: 100%;
+}
+
+.topProducts{
+    display: grid;
+    gap: 1rem;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blueBanner{
+    background-color: white;
+    height: 50%;
+    display: flex;
+    color: black;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.blueBanner img{
+    width: 500px;
+}
+
+.blueBanner p{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+}
+
+.topProducts div{
+    height: 165px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.topProducts div img{
+    height: 100px;
+    width: 100px;
+}
+
+.bestSellers{
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+}
+
+.bestsellerProducts img{
+    height: 200px;
+    width: 200px;
+}
+
+.bestsellerProducts hr{
+    width: 20%;
+}
+
+.bestsellerProducts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.categories{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.categories img{
+    height: 70%;
+    width: 70%;
+}
+
+.categories div{
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+    height: 250px;
+}
+
+.categories p{
+    font-size: 20px;
+}
+
+.shopByCategories{
+    padding-top: 2%;
+    padding-right: 6%;
+    padding-bottom: 3%;
+    padding-left: 7.5%;
+}
+
+.shopbyCategory{
+    justify-content: space-between;
+    display: flex;
+}

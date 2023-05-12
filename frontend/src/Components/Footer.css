@@ -1,0 +1,41 @@
+.pe_banner{
+    justify-content: center;
+    height: 150px;
+}
+
+.footer{
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    background-color: #1D1F1C;
+}
+
+.subHeadings h6{
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.subHeadings p{
+    cursor: pointer;
+    text-align: start;
+    color: white;
+    font-size: 13px;
+}
+
+.footerPartHeading{
+    color: white;
+    justify-content: start;
+    text-align: start;
+    font-size: 14px;
+    margin-bottom: -0.05%;
+}
+
+.callUs{
+    width: 130px;
+    height: 25px;
+    border: 2px solid black;
+}

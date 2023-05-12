@@ -1,0 +1,41 @@
+@media (max-width: 764px) {
+    .listOfTopCategories{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 765px) {
+    .listOfTopCategories{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 990px) {
+    .listOfTopCategories{
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+.shopTopCategories{
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+}
+
+.listOfTopCategories{
+    display: grid;
+    gap: 1rem;    
+}
+
+.topCategoriesCard{
+    height: 180px;
+    width: 180px;
+    justify-content: center;
+    text-align: center;
+    background-color: #f5f6f6;
+    border-radius: 10px;
+}
+
+.topCategoriesCard img{
+    height: 130px;
+    width: 140px;
+}

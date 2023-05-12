@@ -1,0 +1,107 @@
+@media (max-width: 800px) {
+    .profile{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 800px) {
+    .profile{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.editProfile{
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+}
+
+.editButton{
+    font-size: 16px;
+    text-align: right;
+}
+
+.profile{
+    display: grid;
+    gap: 1rem;
+}
+
+.profileSubHeading{
+    font-size: 18px;
+}
+
+.profileInformation{
+    height: 40px;
+    margin-top: -1px;
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;  
+    border: 1px solid black;
+}
+
+.popup{
+    height: auto;
+    width: 47%;
+    background-color: white;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: transform 0.4s, top 0.4s;
+    transform: translate(-50%, -50%) scale(1);
+    padding-bottom: 20px;
+    top: 50%;
+    left: 50%;
+}
+
+.popupOptions{
+    display: flex;
+}
+
+.namePopup, .emailPopup, .mobilePopup, .addressPopup, .passwordPopup{
+    height: 40px;
+    outline: none;
+    margin-top: 15px;
+    font-size: 15px;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;  
+    border: 1px solid black;
+}
+
+.namePopup{
+    margin-left: 62px;
+}
+
+.emailPopup{
+    margin-left: 30px;
+}
+
+.addressPopup{
+    margin-left: 81px;
+    padding-top: 10px;
+    word-wrap:break-word;
+    padding-bottom: 10px;
+}
+
+.mobilePopup{
+    margin-left: 15px;
+}
+
+.passwordPopup{
+    margin-left: 69px;
+}
+
+.popupButtons{
+    justify-content: right;
+    display: flex;
+}
+
+.popupButtons p{
+    margin-left: 30px;
+    cursor: pointer;
+}

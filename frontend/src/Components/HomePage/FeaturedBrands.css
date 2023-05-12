@@ -1,0 +1,29 @@
+.featuredBrands{
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+}
+
+.nameOfBrands img{
+    height: 70px;
+    width: 180px;
+    margin-right: 10px;
+}
+
+.nameOfBrands{
+    background-color: white;
+    padding-left: 1%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    padding-right: 1%;
+    padding-top: 1%;
+    margin-bottom: 40px;
+    padding-bottom: 1%;
+    border-radius: 10px;
+}
+
+.brand{
+    border: 2px grey solid;
+    border-radius: 10px;
+}

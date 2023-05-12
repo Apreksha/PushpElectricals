@@ -1,0 +1,141 @@
+@media (min-width: 1000px) {
+    .checkout{
+        display: flex;
+    }
+}
+
+.checkout{
+    padding-left: 7.5%;
+    margin-top: 2%;
+    padding-right: 7.5%;
+}
+
+.reviewItemAndShippingAddress{
+    width: 70%;
+    margin-right: 20px;
+}
+
+.reviewItem{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+
+.checkoutProductDetails{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.checkoutProductImg{
+    background-color: rgb(238, 240, 240);
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkoutProductImg img{
+    height: 100px;
+    width: 100px;
+}
+
+.checkoutProductName{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.checkoutProductPrice{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.checkoutProductQty{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.deliveryInformation{
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+
+.personalDetails{
+    display: flex;
+    justify-content: space-between;
+}
+
+.personalDetails input{
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+    padding-right: 10px;
+    width: 250px;
+}
+
+.orderSummary{
+    width: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+
+.checkoutSubtotal, .checkoutDeliveryCharge, .checkoutTotal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.checkoutDeliveryCharge, .checkoutSubtotal{
+    font-size: 17px;
+}
+
+.checkoutTotal{
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.payNow{
+    font-weight: bold;
+    font-size: 19px;
+    background-color: #F77E0B;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.saveInformation{
+    border: 1px black solid;
+    cursor: pointer;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 120px;
+}
+
+.delivery{
+    display: flex;
+    justify-content: space-between;
+}

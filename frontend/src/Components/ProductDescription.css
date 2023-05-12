@@ -1,0 +1,120 @@
+.productDetails{
+    padding-top: 1%;
+    padding-right: 7.5%;
+    padding-bottom: 3%;
+    padding-left: 7.5%;
+}
+
+.mainImgBox{
+    background-color: rgb(238, 240, 240);
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImg{
+    height: 300px;
+    width: 300px;
+}
+
+.imageAndDescription{
+    display: flex;
+}
+
+.productDescription{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.description{
+    margin-left: 30px;
+    padding-left: 50px;
+    width: 725px;
+}
+
+.description hr{
+    border: 1px solid rgb(238, 240, 240);
+}
+
+.freeDelivery, .imgChoices, .qty, .booking{
+    display: flex;
+}
+
+.freeDelivery{
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
+.freeDelivery img{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.imgChoices img{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.qty{
+    margin-bottom: 20px;
+    background-color: rgb(238, 240, 240);
+    border-radius: 40px;
+    height: 45px;
+    width:fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.qty div{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.qty p{
+    margin-top: 10px;
+}
+
+.addToCart{
+    background-color: #F77E0B;
+    padding: 5px 20px 10px 20px;
+    margin-right: 20px;   
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.save{
+    background-color: #F77E0B;
+    padding: 5px 20px 10px 20px;
+    margin-right: 20px;   
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.productOverview div{
+    height: 50%;
+    padding-left: 50px;
+    padding-right: 2%;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    margin-bottom: 2%;
+    width: 90%;
+    background-color: white;
+}
+
+table{
+    width: 100%;
+}
+
+tr {
+   height: 30px; 
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}

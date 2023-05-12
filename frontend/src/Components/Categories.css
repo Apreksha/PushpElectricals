@@ -1,0 +1,52 @@
+@media (min-width: 100px) {
+    .categories{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .categories{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    .categories{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .categories{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+.categoriesScreen{
+    padding-right: 7.5%;
+    padding-bottom: 3%;
+    padding-left: 7.5%;
+}
+
+.categories{
+    display: grid;
+    margin-top: 4%;
+    gap: 1rem;
+}
+
+.categories div{
+    height: 180px;
+    width: 180px;
+    cursor: pointer;
+    background-color: rgb(236, 238, 238);
+    border-radius: 30px;
+}
+
+.categories img{
+    height: 70%;
+    width: 70%;
+}
+
+.categories p{
+    font-size: 18px;
+}
